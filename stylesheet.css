@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#nav{
+    background-color: rgb(60,60,59);
+    height: 72px;
+    padding: 0 !important;
+}
+.jaguartext{
+    height: 72px;
+}
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+.start{
+    width: 400px;
+    height: 72px;
+    background-color: aqua;
+}
+@media all and (max-width:1159px){
+    #end{
+        display: none;
+    }
+    .start{
+        width: 0px;
+        height: 0px;
+    }
+}
+@media all and (max-width:1023px){
+    #nav,.jaguartext{
+        height: 50px;
+        
+    }
+    #menu{
+        display: flex;
+        justify-content: flex-start;
+        translate: 0 -41px;
+        padding: 0;
+    }
+    #bgnav{
+        background-color: rgb(60,60,59) !important;
+    }
+    #end{
+        display: none !important;
+    }
+}
+#end{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+}
+.navbtn{
+    width: 100px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbtn:hover{
+    background-color: rgb(79,79,78) ;
+    cursor: pointer;
+}.element{
+    color: white !important;
+}
+.design:hover{
+    border: 1px solid white;
+    background-color: black !important;
+}
+.elementend{
+    color: white !important;
+}
+.endhover:hover{
+    background-color: rgb(79,79,78) !important;
+    cursor: pointer;
+}
+.explore{
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.explore:hover{
+    text-decoration: underline;
+    color: white;
+}
+@media all and (max-width:1256px){
+    .video1{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .slide{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 20px !important;
+    }
+}
+@media all and (max-width:768px){
+    .video1{
+        padding: 0 0 70px 0 !important;
+    }
+}
+.jaguar24gl{
+    color: white;
+    margin-top: 32px;
+}
+.textslide{
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 20px;
+    
+}
+.discribtion-slide{
+    margin-left: 150px;
+    font-size: 12px;
+}
+@media all and (max-width: 1279px){
+    .jaguar24gl{
+        margin-left: 0px !important;
+        display: block !important;
+    }
+    .discribtion-slide{
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+    .btn-slide{
+        margin-left: 0px !important;
+    }
+    .all{
+        margin-left: 35px;
+    }
+}
+.footer-first2,.footer-first4{
+    height: 200px;
+    background-color: black;
+    border-left: 1px solid white;
+    border-bottom:0px solid white;
+    padding: 40px;
+}
+.footer-first1{
+    height: 200px;
+    background-color: black;
+    border-bottom:0px solid white;
+    padding: 40px;
+}
+.footer-first3{
+    height: 200px;
+    background-color: black;
+    border-bottom:0px solid white;
+    border-left: 1px solid white;
+    padding: 40px;
+}
+@media all and (max-width:1200px){
+    .footer-first1,.footer-first2{
+        border-bottom: 1px solid white;
+    }
+    .footer-first3{
+        border-left: 0px solid white;
+    }
+}
+.footer-final{
+    width: 100%;
+    background-color:  rgb(60,60,59);
+    padding: 40px 40px 0;
+}
+#contents{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+.heading{
+    font-size: 13px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.footer-elements{
+    letter-spacing: 1px;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 8px !important;
+}
+.footer-elements:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.media{
+    width: 290px; 
+    height: 50px; 
+    padding-top: 5px;
+    display: inline-flex;
+    align-items: end;
+}
+.images{
+    width: 20px;
+    height: 20px;
+}
+.imagesyu{
+    width: 30px;
+    height: 20px;
+    translate: -3px;
+}
+
+.fb,.x,.youtube,.lin{
+    padding: 11px !important;
+    width: 50px;
+}
+.youtube:hover{
+    background-color: red;
+}
+.fb:hover{
+    background-color: rgb(66,103,178);
+}
+.x:hover{
+    background-color: rgb(29,161,242);
+}
+.lin:hover{
+    background-color: rgb(0,114,177);
+}
+@media all and (max-width: 767px){
+    .md{
+        display: inline-flex !important;
+    }
+    .to-hide{
+        display: none !important;
+    }
+    .media{
+        width: fit-content !important;
+        margin-left: 20px;
+    }
+    .fbtext,.youtubetext,.xtext,.linkedintext{
+        display: none;
+    }
+    .footer-first1,.footer-first2,.footer-first3,.footer-first4{
+        height: 50px;
+        border-left: 0px;
+        border-bottom: 1px solid white;
+        padding: 5px;
+        display: inline-flex;
+    }
+    .footer-first1 img,.footer-first2 img,.footer-first3 img,.footer-first4 img{
+        width: 45px;
+        height: 38px;
+        margin-right: 10px;
+    }
+    .footer-txt{
+        display: none;
+    }
+    .fetxtmain{
+        flex-direction: column;
+    }
+    .fetxt{
+        margin-top: 20px;
+    }
+}
+.search{
+    border-bottom: 1px solid gray;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: transparent;
+    font-size: 13px;
+    width: 35%;
+    padding: 20px;
+}
+.search:hover{
+    border-color: white;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.fetxt{
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 15px;
+}
+.fetxt:hover{
+    text-decoration: underline;
+}
+.dis{
+    color: white;
+    font-size: 10px;
+    margin-top: 20px;
+}
+.footer-btn{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-txt{
+    color: white;
+    font-size: 13px;
+}
+.dis{
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
